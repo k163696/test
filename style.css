@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+*{
+    font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+}
+body h1{
+    font-size: 20px;
+    font-family: 'Bangers', cursive;
+}
+
+#Fruits,
+    #fNames {
+        margin-top:25px;
+        margin-left: -20px;
+        float: left;
+        width: 100%;
+        height: 250px;
+        padding-top: 1px;
+        padding-left: 30px;
+        padding-bottom: 20px;
+        background-color: lightgoldenrodyellow;
+
+    }
+
+    #Fruits div,
+    #fNames div {
+        float: left;
+        width: 210px;
+        height: 210px;
+        border: 2px solid darkgray;
+        cursor: pointer;
+        text-align: center;
+        color: cadetblue;
+        font-style: italic;
+        background-color: white;
+        color: cadetblue;
+        font-size: 25px;
+    }
+
+    #Fruits div img,
+    #fNames div img {
+        padding: 5px;
+        border: 5px solid lightgray;
+        background: white;
+
+
+    }
+
+    #Fruits div {
+        z-index: 50;
+    }
+
+    #fNames div {
+        font-size: 35px;
+        line-height: 200px;
+        text-align: center;
+        color: cadetblue;
+        font-style: italic;
+        z-index: 10;
+    }
+    .row{
+        border-top: 20px;
+        box-sizing: border-box;
+        border-style: solid;
+        border-color: black;
+        margin-top: 15px;
+        padding-left: 3px;
+    }
+    #score_board{
+        right:100px;
+        font-size:20px;
+        color:black;
+        top:20px;
+        
+    }
+
+    header{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .column{
+        font-size: 25px;
+        box-sizing: border-box;
+        float: left;
+        padding: 10px;
+        width: 33.33%;
+    }
+
+    .row{
+        
+        margin-top: 10px;
+        width: 100%;
+        content: "";
+        display: table;
+        clear: both;
+    }
